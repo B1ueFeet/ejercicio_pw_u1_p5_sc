@@ -2,6 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: larger;
+    color: grey;
 }
 .container {
     display: flex;
@@ -27,6 +28,7 @@ button{
 
 button:hover{
     background: #384966;
+
 }
 
 button:active{

@@ -26,5 +26,12 @@ const showNumber = (id) =>{
     document.getElementById('btn_0'+id).innerText = getRandomInt()
     sumar();    
 };
-const showX = (id)=> {document.getElementById('btn_0'+id).innerText = "X"};
+const showX = (id)=> {
+    let valor = document.getElementById('btn_0'+id)
+    if (valor.innerText ===  null || valor.innerText === ""){
+        valor.innerText = "X"
+    }else{
+    }
+
+};
 const sumar = () => {document.getElementById('lbl_result').innerText = getResult()};
